@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+ overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(215, 212, 218) ;
+    padding: 35px 118px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+}
+nav ul{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 207px;
+    list-style: none;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    gap: 60px;
+}
+nav ul li a:hover{
+    font-size: 22px;
+    font-weight: 500px;
+    color: rgb(239, 131, 0);
+}
+nav ul li a{
+text-decoration: none;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 0%;
+}
+.left-side h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.left-side p{
+    padding-top: 10px 0px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 700;
+}
+.left-side button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: black;
+    color: rgb(174, 255, 0);
+}
+.left-side button:hover{
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+.rite-side{
+    display: grid;
+    gap: 10px;   
+}
+.img1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 248px;
+    height: 184px;
+    border-radius: 32px;
+}
+.img3{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 507px;
+    height: 188px;
+    border-radius: 27px;
+}
+.img2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 239px;
+    height: 355px;
+    border-radius: 23px
+}
